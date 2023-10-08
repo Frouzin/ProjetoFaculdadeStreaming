@@ -1,0 +1,156 @@
+body {
+  /* background: #171717; */
+  max-width: 1440px;
+  margin: 0px;
+  background: #303030;
+
+}
+
+
+
+/* inicio do header */
+header {
+  background: #303030;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+
+
+
+}
+
+.icons {
+  margin-right: 7px;
+  height: 40px;
+  width: 40px;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+
+}
+
+nav {
+  display: flex;
+  place-items: center;
+}
+
+a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #d9d9d9;
+
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #FDBD04;
+
+}
+
+.botoes {
+  display: flex;
+  place-items: center;
+}
+
+/* fim do header */
+
+
+/* inicio Filme em destaque */
+.container {
+  margin: 0px;
+  border: 1px solid black;
+  height: 800px;
+  background: #FDBD04;
+  background-image: url(../img/icons/maxresdefault\ 1.svg);
+  position: relative;
+  z-index: -5;
+
+}
+
+.destaque {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 1;
+  top: 400px;
+  left: 160px;
+  text-align: left;
+
+}
+
+h1 {
+  margin: 0px;
+  color: #FDBD04;
+}
+
+p {
+  color: #d9d9d9;
+  max-width: 400px;
+}
+
+.acao {
+  background: #FDBD04;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* fim do filme em destaque */
+
+
+/* inicio do top 3 */
+
+
+
+
+
+.titulo {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+
+
+
+
+/* card base*/
+.container_filmes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+.fig {
+  max-width: 350px;
+}
+
+h3 {
+  margin: 0px;
+  color: #FDBD04;
+
+}
+
+button {
+  background: black;
+
+}
+
+
+
+
+
+
+/* inicio dos filmes e series  */
+
+.filmes {
+  border: 1px solid black;
+  /* max-height: 959px; */
+  background: #171717;
+}
